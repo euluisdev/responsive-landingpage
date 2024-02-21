@@ -105,3 +105,21 @@ html {
     margin-bottom: 3rem;
 }
 
+.btn button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: tomato;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    margin-top: 5rem;
+    transition: all 300ms ease-in;
+}
+
+.btn button:hover {
+    border: 1px solid tomato;
+    background-color: transparent;
+    color: tomato;
+}
