@@ -115,11 +115,17 @@ html {
     color: black;
     font-weight: 700;
     margin-top: 5rem;
-    transition: all 300ms ease-in;
+    transition: all 100ms ease-in;
 }
 
 .btn button:hover {
     border: 1px solid tomato;
     background-color: transparent;
     color: tomato;
+}
+
+.btn {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
 }
