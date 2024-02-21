@@ -129,3 +129,45 @@ html {
     display: flex;
     justify-content: space-between;
 }
+
+.about-us {
+    background-color: #1f1e1f;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us img{
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contente-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contente-about h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.contente-about p {
+    font-size: 1.9rem;
+    text-align: center;
+    width: 600px;
+}
+
