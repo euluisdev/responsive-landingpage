@@ -281,3 +281,23 @@ html {
     font-size: 6rem;
     margin-bottom: 3rem;
 }
+
+.contacts-secao {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.contacts-secao i {
+    margin-right: 1rem;
+}
+
+.contacts-secao div {
+    cursor: pointer;
+    transition: all 100ms ease-in;
+}
+
+.contacts-secao div:hover {
+    color: tomato;
+}
