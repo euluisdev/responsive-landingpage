@@ -301,3 +301,17 @@ html {
 .contacts-secao div:hover {
     color: tomato;
 }
+
+/* footer */
+footer {
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a {
+    color: white;
+}
