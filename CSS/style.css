@@ -192,11 +192,11 @@ html {
 }
 
 .choose-items {
-    width: 80%;
+    width: 90%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
     justify-content: center;
     align-items: center;
     gap: 30px;
