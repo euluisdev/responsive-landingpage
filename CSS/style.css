@@ -315,3 +315,24 @@ footer {
 footer a {
     color: white;
 }
+
+/* Media Query */
+
+@media(max-width: 1200px) {
+    .main {
+        display: block;
+    }
+
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 12%;
+        padding-left: 0px;
+    }
+
+    .about-us img {
+        width: 600px;
+        margin-left: -2px;
+    }
+}
