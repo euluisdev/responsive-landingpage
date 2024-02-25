@@ -347,7 +347,7 @@ footer a {
     html {
         font-size: 45%;
     }
-    
+
     .content {
         display: flex;
         flex-direction: row;
@@ -359,10 +359,22 @@ footer a {
     }
 
     .choose-items {
-        grid-template-columns: repeat(2, minmax(50px 350px));
-
+        grid-template-columns: repeat(2, minmax(50px, 350px));
     }
     .choose-items .info h4 {
         margin-left: 12rem;
+    }
+
+    .one, .two, .three {
+        width: 80%;
+        height: 2px;
+        background-color: white;
+        margin: 6px auto;
+        transition-duration: 0.5s;
+    }
+
+    .menu-toggle {
+        width: 30px;
+        height: 30px;
     }
 }
