@@ -343,4 +343,26 @@ footer a {
     }
 }
 
-@
+@media(max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+    .content .list-menu {
+        display: none;
+    }
+
+    .choose-items {
+        grid-template-columns: repeat(2, minmax(50px 350px));
+
+    }
+    .choose-items .info h4 {
+        margin-left: 12rem;
+    }
+}
