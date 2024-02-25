@@ -45,4 +45,4 @@ Sinta-se à vontade para fazer fork deste projeto, contribuir com melhorias e en
 Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
 
 
-* Landing page in progress
+* Landing page in progress...
