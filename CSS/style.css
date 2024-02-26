@@ -15,6 +15,7 @@ html {
     height: 100vh;
     font-size: 62.5%;
     overflow-x: hidden;
+    background-color: #1e1f1e;
 }
 
 /* navBar */
@@ -381,9 +382,9 @@ footer a {
         display: none;
     }
 
-    .contente.on .menu-toggle {
+    .content.on .menu-toggle {
         position: absolute;
-        height: 40px;
+        right: 40px;
         top: 20px;
     }
 
@@ -395,9 +396,27 @@ footer a {
         justify-content: center;
     }
     .content.on .list-menu li a {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
+    .content.on .menu-toggle .two {
+        opacity: 0;
+    }
+    .content.on .menu-toggle .one {
+        transform: rotate(45deg) translate(5px, -8px);
+    }
+    .content.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(20px, -6px);
+    }
+
+
+    .one, .two, .three {
+        width: 90%;
+        height: 2px;
+        background-color: white;
+        margin: 6px auto;
+        transition-duration: 0.5s;
+    }
 
 
     .choose-items {
@@ -405,13 +424,5 @@ footer a {
     }
     .choose-items .info h4 {
         margin-left: 12rem;
-    }
-
-    .one, .two, .three {
-        width: 80%;
-        height: 2px;
-        background-color: white;
-        margin: 6px auto;
-        transition-duration: 0.5s;
     }
 }
