@@ -18,7 +18,7 @@ html {
     background-color: #1e1f1e;
 }
 
-/* navBar */
+/* navBar */                
 
 .content {
     width: 100vw;
@@ -409,7 +409,6 @@ footer a {
         transform: rotate(-45deg) translate(20px, -6px);
     }
 
-
     .one, .two, .three {
         width: 90%;
         height: 2px;
@@ -418,11 +417,22 @@ footer a {
         transition-duration: 0.5s;
     }
 
-
     .choose-items {
         grid-template-columns: repeat(2, minmax(50px, 350px));
     }
     .choose-items .info h4 {
         margin-left: 12rem;
+    }
+
+    /* contacts-secao */
+
+    .contacts-secao {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .contacts-secao div {
+        margin: 1.5rem;
     }
 }
