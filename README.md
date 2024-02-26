@@ -34,15 +34,17 @@ incluindo uma barra de navegação, uma seção inicial, uma seção "Sobre nós
 
 ## Responsividade
 
-Este website é responsivo e adapta-se a diferentes tamanhos de tela, proporcionando uma experiência de usuário consistente em dispositivos desktop, tablets e smartphones.
+Este website é responsivo e adapta-se a diferentes tamanhos de tela, proporcionando uma experiência de usuário consistente em 
+dispositivos desktop, tablets e smartphones.
 
 ## Contribuição
 
-Sinta-se à vontade para fazer fork deste projeto, contribuir com melhorias e enviar pull requests. Estamos abertos a sugestões e colaborações para tornar este projeto ainda melhor!
+Sinta-se à vontade para fazer fork deste projeto, contribuir com melhorias e enviar pull requests. Estou disponível a sugestões, 
+colaborações e críticas construtivas para tornar este projeto ainda melhor!
 
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
 
 
-* Landing page in progress...
+## Landing page in progress...
