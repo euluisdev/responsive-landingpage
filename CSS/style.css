@@ -436,3 +436,32 @@ footer a {
         margin: 1.5rem;
     }
 }
+
+@media(max-width: 600px) {
+    .main-content h1 {
+        width: 500px;
+        text-align: center;
+        font-size: 4rem;
+    }
+    .main-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .choose-items {
+        grid-template-columns: repeat(auto-fit, minmax(50px, 350px));
+    }
+
+    .about-us img {
+        width: 400px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    .about-us p {
+        text-align: center;
+        width: 400px;
+    }
+
+    .contacts-secao {
+        width: 300px;
+    }
+}
