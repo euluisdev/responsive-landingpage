@@ -465,3 +465,28 @@ footer a {
         width: 300px;
     }
 }
+
+@media(max-width:500px) {
+    .btn {
+        width: 150px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn button {
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+    .main-content h1 {
+        width: 350px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .main-content h2 {
+        width: 200px;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
