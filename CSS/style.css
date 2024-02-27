@@ -156,19 +156,19 @@ html {
     justify-content: space-between;
 }
 
-.contente-about {
+.content-about {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.contente-about h2 {
+.content-about h2 {
     font-size: 6rem;
     margin-bottom: 1rem;
 }
 
-.contente-about p {
+.content-about p {
     font-size: 1.9rem;
     text-align: center;
     width: 600px;
@@ -488,5 +488,24 @@ footer a {
         width: 200px;
         font-size: 2rem;
         text-align: center;
+    }
+}
+
+@media(width: 400px) {
+    .about-us img {
+        width: 250px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .content-about p {
+        width: 250px;
+        text-align: center;
+    }
+
+    .choose-items {
+        width: 60%;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 350px));
     }
 }
