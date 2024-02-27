@@ -31,6 +31,12 @@ incluindo uma barra de navegação, uma seção inicial, uma seção "Sobre nós
 
 - **Fonte**: Roboto (carregada do Google Fonts).
 - **Imagens**: Uma imagem de fundo (`fundopizza.jpg`) localizada no diretório `img-zarriapi/`.
+- **bootstrap icons.
+- **media query.
+- **css.
+- **Html.
+- **javaScript.
+- **Navegador web.
 
 ## Responsividade
 
@@ -45,6 +51,3 @@ colaborações e críticas construtivas para tornar este projeto ainda melhor!
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
-
-
-## Landing page in progress...
